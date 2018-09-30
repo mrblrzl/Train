@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Train Scheduler</title>
+	<link rel="stylesheet" href="./assets/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+</head>
+
+<body class=container>
+    <div class="col-md-12">
+        <div class="jumbotron" style="background-color: #e0c341">
+            <h1>Wizard Express</h1>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="panel-heading">Current Train Schedule</div>
+            <table class="table" style="background-color: #e0c341">
+                <td id="trainName">Train Name</td>
+                <td id="destination">Destination</td>
+                <td id="frequency">Frequency (min.)</td>
+                <td id="nextArrival">Next Arrival</td>
+                <td id="minutesAway">Minutes Away</td>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+			<div class="panel-heading">Add Train</div>
+            Train Name<br>
+            <input type="text" id="trainname" class="field"><br>
+            Destination<br>
+            <input type="text" id="trainDestination" class="field"><br>
+            First Train Time (HH:mm - military time)<br>
+            <input type="text" id="traintime" class="field"><br>
+            Frequency (min)<br>
+            <input type="text" id="trainFrequency" class="field"><br>
+            <input type="submit" class="submit">
+        </form>
+    </div>
+
+<script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+<script src="./assets/app.js"></script>
+</body>
+</html>
