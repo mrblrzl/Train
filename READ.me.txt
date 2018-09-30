@@ -1,0 +1,11 @@
+Add trains, administrators submit the following:
+    
+    * Train Name
+    
+    * Destination 
+    
+    * First Train Time -- in military time
+    
+    * Frequency -- in minutes
+
+See the next departure time to these famous sites in the Harry Potter series.
