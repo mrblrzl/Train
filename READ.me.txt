@@ -1,4 +1,6 @@
-Add trains, administrators submit the following:
+https://mrblrzl.github.io/Train/
+
+Add trains, submit the following:
     
     * Train Name
     
